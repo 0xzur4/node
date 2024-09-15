@@ -7,7 +7,8 @@
 - 4-core processor and better
 
 ### Software Requirement
-- Docker:
+- Docker :
+- > Windows [here](https://docs.docker.com/desktop/install/windows-install/)
 > Run the following command to uninstall all conflicting packages:
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -35,6 +36,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ### Installing 
 > Download app:
 ```bash
+# Windows
+https://pingpong-build.s3.ap-southeast-1.amazonaws.com/PINGPONG-Setup-latest.exe
+# Linux
 wget https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/latest/PINGPONG
 chmod +x PINGPONG
 ```
